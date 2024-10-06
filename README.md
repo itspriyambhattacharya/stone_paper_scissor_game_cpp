@@ -1,5 +1,4 @@
-
-# Stone Paper Scissors Game in C++
+# Stone Paper Scissors Game
 
 This is a simple command-line Stone-Paper-Scissors game implemented in C++. It allows the user to compete against the computer, which generates random moves each round. The game continues until either the user or the computer reaches the specified max score.
 
@@ -8,7 +7,7 @@ This is a simple command-line Stone-Paper-Scissors game implemented in C++. It a
 - **Single-player Mode**: Play against the computer with randomized moves.
 - **Scoring System**: The game keeps track of scores for both the player and the computer.
 - **Win or Lose Outcome**: A congratulatory message is displayed if the user wins, and a message of encouragement is displayed if the user loses.
-  
+
 ## Game Rules
 
 1. **Stone vs Scissors**: Stone wins.
