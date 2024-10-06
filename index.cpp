@@ -12,6 +12,8 @@ int main(void)
     cout << "\nEnter max score:\t";
     cin >> max_score;
     srand(time(0)); // seed to generate random number for computer's turn
+    system("cls");
+    cout << "\nStone Paper Scissor Game\n";
     while (user_score < max_score && computer_score < max_score)
     {
         cout << "\nEnter:\n1 for Stone\n2 for Paper\n3 for Scissor\n";
