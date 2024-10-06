@@ -18,6 +18,8 @@ int main(void)
         cout << "\nEnter your turn:\t";
         cin >> user_turn;
         computer_turn = (rand() % N) + 1;
+        cout << "\nYou entered:\t" << user_turn << endl;
+        cout << "\nComputer entered:\t" << computer_turn << endl;
         if ((user_turn == 1 && computer_turn == 1) || (user_turn == 2 && computer_turn == 2) || (user_turn == 3 && computer_turn == 3))
         {
             cout << "\nDraw, both entered same.\n";
