@@ -1,6 +1,7 @@
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
+#include <windows.h>
 using namespace std;
 
 int main(void)
@@ -73,10 +74,12 @@ int main(void)
             cout << "\nComputer's Score is:\t" << computer_score << endl;
         }
     }
-
+    Sleep(2000);
+    system("cls");
+    cout << "\nResult is:\n";
     if (user_score > computer_score)
     {
-        cout << "\n Congratulations!!! You won." << endl;
+        cout << "\nCongratulations!!! You won." << endl;
     }
     else
     {
