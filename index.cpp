@@ -71,5 +71,15 @@ int main(void)
             cout << "\nComputer's Score is:\t" << computer_score << endl;
         }
     }
+
+    if (user_score > computer_score)
+    {
+        cout << "\n Congratulations!!! You won 🥳🥳🥳🥳 " << endl;
+    }
+    else
+    {
+        cout << "\nYou lost, better luck next time. 😔😔😔😔" << endl;
+    }
+
     return 0;
 }
