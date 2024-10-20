@@ -76,6 +76,7 @@ int main(void)
     }
     Sleep(2000);
     system("cls");
+    cout << "\nStone Paper Scissor Game\n";
     cout << "\nResult is:\n";
     if (user_score > computer_score)
     {
